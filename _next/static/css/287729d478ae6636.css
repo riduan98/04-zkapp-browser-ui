@@ -2,8 +2,16 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-image: url(/04-zkapp-browser-ui/_next/static/media/bg.d965baca.png);
+
+  font-family: "Comic Sans MS";
+  font-size: 27px;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  position: absolute;
 }
 
 a {
@@ -15,16 +23,17 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark ) {
   html {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: black;
   }
 }
 
+@media (max-width: 480px) {
+
+}
 .Home_container__bCOhY {
   padding: 0 2rem;
 }
